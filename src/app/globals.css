@@ -1,7 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 .whole-body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
