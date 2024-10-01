@@ -6,7 +6,7 @@ export default function Home() {
     <div className="whole-body">
       <div className="headings">
         <h2> Assalam-o-Alikum!</h2>
-        <h1>Hi, I'm <span>Rameen Rashid</span></h1>
+        <h1>Hi, I am <span>Rameen Rashid</span></h1>
         <h3>Future Cloud Applied Gen-AI Engineer</h3>
       </div>
       <div className="picture">
