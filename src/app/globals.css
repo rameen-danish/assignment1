@@ -1,12 +1,11 @@
 body{
-  background-color: rgb(241, 164, 241);
-}
-.whole-body {
   font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
+  background-color: rgb(241, 164, 241);
   width: 100%;
   height: 100vh;
-  background-color: rgb(241, 164, 241);
+  margin: 0;
+}
+.whole-body {
   display: flex;
   padding:10px;
 }
