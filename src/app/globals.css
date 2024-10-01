@@ -1,11 +1,14 @@
+body{
+  background-color: rgb(241, 164, 241);
+}
 .whole-body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   width: 100%;
   height: 100vh;
   background-color: rgb(241, 164, 241);
-  padding: 10px;
   display: flex;
+  padding:10px;
 }
 
 .headings {
@@ -123,7 +126,7 @@
 
 @media only screen and (max-width: 511px) {
   .headings{
-    margin-top: 50%;
+    margin-top: 40%;
     margin-left: 0%;
   }
   .headings h1 {
@@ -142,10 +145,19 @@
     margin-left: 2%;
   }
   .profile-pic {
-    height: 250px;
-    width: 180px;
+    height: 200px;
+    width: 150px;
     border: 5px solid;
     border-color: rgb(187, 13, 193) black;
     box-shadow: 0 0 30px rgb(187, 13, 193);
+  }
+}
+@media only screen and (max-width: 361px){
+  .profile-pic {
+    height: 180px;
+    width: 140px;
+  }
+  .headings h1 {
+    font-size: 20px;
   }
 }
