@@ -1,0 +1,15 @@
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration:underline;
+    text-shadow: 0 0 5px rgb(187, 13, 193);
+  }
+  .paragraph{
+    display: block;
+    padding:40px;
+    text-align: center;
+  }

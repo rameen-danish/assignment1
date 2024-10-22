@@ -1,19 +1,45 @@
-body{
+body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(241, 164, 241);
   width: 100%;
   height: 100vh;
   margin: 0;
 }
+
 .whole-body {
   display: flex;
-  padding:10px;
+  padding: 10px;
+}
+
+.header {
+  background-color: rgb(187, 13, 193);
+  color: black;
+}
+
+.header-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-button ul li {
+  display: inline-block;
+  padding: 10px;
+  font-size: 22px;
+  font-weight: bolder;
+  text-decoration: none;
+  color: black;
+}
+
+.header-button ul li:hover {
+  color: rgb(241, 164, 241);
+  text-decoration: underline black;
 }
 
 .headings {
   align-items: center;
   justify-content: center;
-  margin-top: 15%;
+  margin-top: 12%;
   margin-left: 10%;
   font-style: italic;
   font-weight: bold;
@@ -36,11 +62,11 @@ body{
 }
 
 .picture {
-  height:500px;
+  height: 500px;
   display: flex;
   justify-content: right;
   align-items: right;
-  margin-top: 8%;
+  margin-top: 6%;
   margin-left: 10%;
 }
 
@@ -50,67 +76,96 @@ body{
   border-color: rgb(187, 13, 193) black;
   box-shadow: 0 0 40px rgb(187, 13, 193);
 }
-@media only screen and (max-width: 1223px){
-  .picture{
+.footer{
+  background-color: rgb(187, 13, 193);
+  color: black;
+}
+.footer-elements{
+  display: flex;
+  justify-content: left;
+  align-items:left;
+  gap:20px;
+}
+.footer-elements h3{
+  margin-top:13px;
+  margin-left: 2%;
+}
+
+@media only screen and (max-width: 1223px) {
+  .picture {
     margin-left: 10%;
   }
-  .headings{
+
+  .headings {
     margin-left: 5%;
   }
 }
-@media only screen and (max-width: 1084px){
-  .picture{
+
+@media only screen and (max-width: 1084px) {
+  .picture {
     margin-left: 5%;
   }
-  .headings{
-    margin-left:5%;
+
+  .headings {
+    margin-left: 5%;
   }
-.profile-pic {
-  height: 450px;
-  width: 300px;
+
+  .profile-pic {
+    height: 450px;
+    width: 300px;
+  }
 }
-}
-@media only screen and (max-width:950px){
-  .picture{
+
+@media only screen and (max-width:950px) {
+  .picture {
+    margin-left: 3%;
+    margin-top: 8%;
+  }
+
+  .headings {
     margin-left: 3%;
     margin-top: 15%;
   }
-  .headings{
-    margin-left:3%;
-    margin-top: 25%;
-  }.profile-pic {
+
+  .profile-pic {
     height: 400px;
     width: 250px;
   }
+
   .headings h1 {
     font-size: 45px;
   }
 }
-@media only screen and (max-width: 800px){
-  .picture{
+
+@media only screen and (max-width: 800px) {
+  .picture {
     margin-left: 2%;
-    margin-top: 15%;
   }
-  .headings{
-    margin-left:2%;
-    margin-top: 25%;
-  }.profile-pic {
+
+  .headings {
+    margin-left: 2%;
+  }
+
+  .profile-pic {
     height: 350px;
     width: 200px;
   }
+
   .headings h1 {
     font-size: 40px;
   }
 }
-@media only screen and (max-width: 676px){
-  .picture{
+
+@media only screen and (max-width: 676px) {
+  .picture {
     margin-left: 1%;
-    margin-top: 15%;
+
   }
-  .headings{
-    margin-left:1%;
-    margin-top: 25%;
+
+  .headings {
+    margin-left: 1%;
   }
+
   .profile-pic {
     height: 300px;
     width: 180px;
@@ -118,16 +173,17 @@ body{
     border-color: rgb(187, 13, 193) black;
     box-shadow: 0 0 30px rgb(187, 13, 193);
   }
+
   .headings h1 {
     font-size: 30px;
   }
 }
 
 @media only screen and (max-width: 511px) {
-  .headings{
-    margin-top: 40%;
+  .headings {
     margin-left: 0%;
   }
+
   .headings h1 {
     font-size: 25px;
   }
@@ -139,10 +195,11 @@ body{
   .headings h3 {
     font-size: 13px;
   }
+
   .picture {
-    margin-top: 35%;
     margin-left: 2%;
   }
+
   .profile-pic {
     height: 200px;
     width: 150px;
@@ -151,11 +208,13 @@ body{
     box-shadow: 0 0 30px rgb(187, 13, 193);
   }
 }
-@media only screen and (max-width: 361px){
+
+@media only screen and (max-width: 361px) {
   .profile-pic {
     height: 180px;
     width: 140px;
   }
+
   .headings h1 {
     font-size: 20px;
   }
